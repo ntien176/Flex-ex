@@ -163,6 +163,44 @@ body {
     color: #fff;
     line-height: 90px; 
     margin: 10px;
+}
 
+/* FRAME LAYOUT */
+.frame-layout {
+    background-color: khaki;
+    color:#333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    height: 50vh;
+    font-size: 5vh;
+    margin: 3vh auto
+}
 
+/* box-content */
+.box-content {
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+
+}
+.first-one {
+    padding: 2vh;
+    background-color: lightcoral;
+    flex: 1;
+}
+.second-one {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.second-one div {
+    padding: 2vh;
+    background-color: lightsalmon;
+    flex: 1;
+
+}
+.second-one div:nth-of-type(2){
+    background-color: rgb(51, 51, 51);
 }
